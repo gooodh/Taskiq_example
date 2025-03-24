@@ -6,6 +6,7 @@ from taskiq_redis import RedisAsyncResultBackend, RedisStreamBroker
 
 result_backend = RedisAsyncResultBackend(
     redis_url="redis://redis_task:6379",
+    result_ex_time=1000,
 )
 
 # Or you can use PubSubBroker if you need broadcasting
