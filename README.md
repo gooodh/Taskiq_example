@@ -1,1 +1,4 @@
-# Taskiq_example
+# Taskiq
+## redis
+## Dockerfile
+## docker-compose.yml

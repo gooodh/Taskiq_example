@@ -1,0 +1,4 @@
+taskiq
+redis
+taskiq-redis
+loguru
